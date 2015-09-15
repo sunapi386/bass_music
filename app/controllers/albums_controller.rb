@@ -7,7 +7,7 @@ class AlbumsController < ApplicationController
     @album = Album.find(params[:id])
     #puts "    >>> #{@album.inspect}"
     @tracks = @album.tracks.all
-    puts "    >>> #{@tracks.first.inspect}"
+    #puts "    >>> #{@tracks.first.inspect}"
 	@dog="dogz"
   end
 end
